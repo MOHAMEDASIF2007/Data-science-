@@ -1,0 +1,124 @@
+{
+    "age": {
+        "min": 29.0,
+        "max": 77.0,
+        "mean": 54.549586776859506,
+        "median": 56.0,
+        "unique_values": null
+    },
+    "sex": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6818181818181818,
+        "median": 1.0,
+        "unique_values": [
+            1.0,
+            0.0
+        ]
+    },
+    "cp": {
+        "min": 1.0,
+        "max": 4.0,
+        "mean": 3.152892561983471,
+        "median": 3.0,
+        "unique_values": [
+            4.0,
+            2.0,
+            3.0,
+            1.0
+        ]
+    },
+    "trestbps": {
+        "min": 94.0,
+        "max": 200.0,
+        "mean": 130.95867768595042,
+        "median": 130.0,
+        "unique_values": null
+    },
+    "chol": {
+        "min": 126.0,
+        "max": 564.0,
+        "mean": 249.8388429752066,
+        "median": 244.5,
+        "unique_values": null
+    },
+    "fbs": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.1446280991735537,
+        "median": 0.0,
+        "unique_values": [
+            0.0,
+            1.0
+        ]
+    },
+    "restecg": {
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.9793388429752066,
+        "median": 0.0,
+        "unique_values": [
+            2.0,
+            0.0,
+            1.0
+        ]
+    },
+    "thalach": {
+        "min": 71.0,
+        "max": 202.0,
+        "mean": 149.96280991735537,
+        "median": 153.5,
+        "unique_values": null
+    },
+    "exang": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.32644628099173556,
+        "median": 0.0,
+        "unique_values": [
+            0.0,
+            1.0
+        ]
+    },
+    "oldpeak": {
+        "min": 0.0,
+        "max": 6.2,
+        "mean": 0.9991735537190083,
+        "median": 0.8,
+        "unique_values": null
+    },
+    "slope": {
+        "min": 1.0,
+        "max": 3.0,
+        "mean": 1.5867768595041323,
+        "median": 2.0,
+        "unique_values": [
+            2.0,
+            1.0,
+            3.0
+        ]
+    },
+    "ca": {
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 0.6099585062240664,
+        "median": 0.0,
+        "unique_values": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+        ]
+    },
+    "thal": {
+        "min": 3.0,
+        "max": 7.0,
+        "mean": 4.713692946058091,
+        "median": 3.0,
+        "unique_values": [
+            7.0,
+            3.0,
+            6.0
+        ]
+    }
+}
