@@ -8,9 +8,17 @@ from ml.predict import load_pipeline, predict_single_patient
 
 app = FastAPI(title="UyirNadi - Heart Disease Risk Intelligence API")
 
+origins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+    # Add your Vercel deployment URL here:
+    # "https://your-uyirnadi-project.vercel.app"
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
